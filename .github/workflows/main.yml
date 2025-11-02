@@ -6,7 +6,7 @@ on :
       - main
 jobs:
   example-job :
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: print-welcome message
