@@ -10,4 +10,11 @@ jobs:
 
     steps:
       - name: print-welcome message
-        run : echo "welcom to our first githubAction worckFlow" 
+        run : echo "welcom to our first githubAction worckFlow"
+
+      - name : Checkout repository
+        uses: actions/checkout@v5.0.0
+
+      - name: List all files
+        run : ls -la
+        
