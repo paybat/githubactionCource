@@ -1,0 +1,13 @@
+name: First WorkFlow
+
+on :
+  push :
+    branches:
+      - main
+jobs:
+  example-job :
+    run-on: ubuntu-latest
+
+    steps:
+      - name: print-welcome message
+        run : ech= "welcom to our first githubAction worckFlow" 
