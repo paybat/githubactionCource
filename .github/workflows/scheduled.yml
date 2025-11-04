@@ -1,10 +1,12 @@
-om:
+on:
   schedule:
     - cron: "5 * * * *"
 
 jobs:
   hourly-task:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      - name: print message
+      - name: Print message
         run: echo "Hello Mr Hicham Driouch"
+
+        
