@@ -1,0 +1,10 @@
+om:
+  schedule:
+    - cron: "5 * * * *"
+
+jobs:
+  hourly-task:
+    run-on: ubuntu-latest
+    steps:
+      - name: print message
+        run: echo "Hello Mr Hicham Driouch"
