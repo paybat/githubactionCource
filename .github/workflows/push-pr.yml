@@ -7,6 +7,8 @@ on:
     branches:
       - main
       - "release/**"
+  paths:
+    - "src/**"
 
 jobs:
   test:
